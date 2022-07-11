@@ -11,6 +11,7 @@ const alertFunction = (title, message, className="warning") => `
 
 function formHandler(event) {
     event.preventDefault()
+    
     const USER_NAME = document.querySelector("#username")
     const SCORE = document.querySelector("#score")
     
